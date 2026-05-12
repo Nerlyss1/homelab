@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editeurs
+.vscode/
+*.swp
+*~
+
+# Fichiers sensibles
+*.pem
+*.key
+*.env
+id_rsa
+id_rsa.pub
+secrets.yml
+vault-password.txt
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
